@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactSafeHtml from 'react-safe-html';
+import Image from 'next/image'
 
 import styles from '@/styles/Card.module.css';
 
@@ -20,7 +21,7 @@ function ImageList(props) {
     list = (<div>
     {props.images.map((image, index) => {
       return (
-        <img key={index} src={image} alt={index} className={styles.cardImage}/>
+        <Image key={index} src={image} alt={index} className={styles.cardImage}/>
       )
     })}
     </div>)

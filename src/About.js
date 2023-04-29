@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import styles from '@/styles/About.module.css';
+import React, { Component } from 'react'
+import styles from '@/styles/About.module.css'
+import Image from 'next/image'
 
 class About extends Component {
   render() {
@@ -7,7 +8,7 @@ class About extends Component {
       <section id="about" className={styles.about}>
           <div className="row aligned-center">
               <div className="text-center medium-4 columns">
-                  <img src="/img/me-square.jpg" className={styles.about__mugshot} alt="moi"></img>
+                  <Image src="/img/me-square.jpg" className={styles.about__mugshot} alt="moi"></Image>
               </div>
               <div className="small-8 small-offset-2 end medium-offset-0 medium-8 columns about__content">
                   <h3>About</h3>

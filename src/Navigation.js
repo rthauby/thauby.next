@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-
-import styles from '@/styles/Navigation.module.css';
+import React, { Component } from 'react'
+import Link from 'next/link'
+import styles from '@/styles/Navigation.module.css'
 
 
 class Navigation extends Component {
@@ -33,7 +33,7 @@ class Navigation extends Component {
       <nav className={styles.navigation}>
           <div className="row aligned-center">
               <div className="small-12 columns">
-                  <h1><a href="/" className={styles.homeLink}>Rodrigo Thauby</a></h1>
+                  <h1><Link href="/" className={styles.homeLink}>Rodrigo Thauby</Link></h1>
 
                   <div id="nav-icon" onClick={e => this.handleMobileNavClick(e)}>
                     <span></span>
@@ -42,9 +42,9 @@ class Navigation extends Component {
                   </div>
 
                   <ul className={styles.navigation__list}>
-                      <li className={styles.navList__item}><a href="/" activeClassName="selected" onClick={this.handleCloseNav}>Home</a></li>
-                      <li className={styles.navList__item}><a href="/work" activeClassName="selected" onClick={this.handleCloseNav}>Work</a></li>
-                      <li className={styles.navList__item}><a href="/hobbies" activeClassName="selected" onClick={this.handleCloseNav}>Hobbies</a></li>
+                      <li className={styles.navList__item}><Link href="/" activeClassName="selected" onClick={this.handleCloseNav}>Home</Link></li>
+                      <li className={styles.navList__item}><Link href="/work" activeClassName="selected" onClick={this.handleCloseNav}>Work</Link></li>
+                      <li className={styles.navList__item}><Link href="/hobbies" activeClassName="selected" onClick={this.handleCloseNav}>Hobbies</Link></li>
                   </ul>
               </div>
           </div>
