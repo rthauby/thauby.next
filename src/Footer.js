@@ -6,8 +6,7 @@ class Footer extends Component {
     return (
       <footer className={styles.footer}>
         <div><img src='/img/react.svg' className={styles.reactLogo} /></div>
-        <div>This site is powered by React, hosted on S3, and served via CloudFront.</div>
-        <div>Fancy, I know.</div>
+        <div>This site is powered by <a href="https://react.dev/">React</a> and <a href="https://nextjs.org/">Next.js</a>.</div>
       </footer>
     )
   }

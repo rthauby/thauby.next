@@ -24,7 +24,7 @@ class Navigation extends Component {
     }
   }
 
-  handleCloseNav(){
+  handleCloseNav = () => {
     this.setState({'navClass':'closed'});
   }
 

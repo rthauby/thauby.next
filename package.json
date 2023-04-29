@@ -1,6 +1,9 @@
 {
   "name": "thauby.com.2023",
   "version": "0.1.0",
+  "engines": {
+    "node": "19.8.1"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
