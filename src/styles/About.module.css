@@ -1,0 +1,33 @@
+.about {
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("/img/den.png");
+  background-size: cover;
+  text-shadow: 0 1px 1px black;
+  font-weight: 600; }
+
+@media screen and (min-width: 40em) {
+  .about {
+    min-height: 100vh;
+    padding: 3rem 0; } }
+
+.about a,
+.about a:visited {
+  text-decoration: underline; }
+
+.about__mugshot {
+  border-radius: 100%;
+  max-width: 75%;
+  margin: 2rem 0; }
+
+@media screen and (min-width: 40em) {
+  .about__mugshot {
+    margin: 0; } }
+
+.about__content h3 {
+  font-weight: normal; }
+
+.about__content p {
+  font-size: 1rem; }

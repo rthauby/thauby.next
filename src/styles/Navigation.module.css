@@ -1,0 +1,80 @@
+.navigation__list {
+  text-align: right;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0.5rem 0;
+  clear: both;
+  display: none; }
+
+.navigation__list.open {
+  display: block; }
+
+@media screen and (min-width: 40em) {
+  .navigation__list {
+    display: block; } }
+
+.navList__item {
+  margin-left: 1rem;
+  font-size: 1.75rem;
+  display: block; }
+
+@media screen and (min-width: 40em) {
+  .navList__item {
+    font-size: 1.25rem;
+    display: inline-block; } }
+
+.homeLink {
+  position: absolute;
+  background: url("/img/cookie.png") center center no-repeat;
+  text-indent: -9999px;
+  color: transparent;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  margin: 10px 0; }
+
+#navIcon {
+  display: block;
+  width: 60px;
+  height: 45px;
+  position: relative;
+  transform: rotate(0deg) scale(0.6);
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  float: right; }
+
+#navIcon span {
+  display: block;
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  background: white;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out; }
+
+#navIcon span:nth-child(1) {
+  top: 0px; }
+
+#navIcon span:nth-child(2) {
+  top: 18px; }
+
+#navIcon span:nth-child(3) {
+  top: 36px; }
+
+#navIcon.open span:nth-child(1) {
+  top: 18px;
+  transform: rotate(135deg); }
+
+#navIcon.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px; }
+
+#navIcon.open span:nth-child(3) {
+  top: 18px;
+  transform: rotate(-135deg); }
+
+@media screen and (min-width: 40em) {
+  #navIcon {
+    display: none; } }
