@@ -9,13 +9,13 @@
         "title" : "Traditional Sculpting",
         "body" : "<p>My interest in traditional sculpting started from getting introduced to Garage Kits by my father in law. Slowly I became more interested in producing my own GK than purchasing them, and eventually that has led into digital sculpting which is what I'm currently trying my hand at.</p>",
         "images" : [
-            "img/art/sculpts/urban-warfare.png",
-            "img/art/sculpts/strigoi.png",
-            "img/art/sculpts/starkiller1.png",
-            "img/art/sculpts/starkiller2.png",
-            "img/art/sculpts/sam.png",
-            "img/art/sculpts/neo.png",
-            "img/art/sculpts/juggernaut.png"
+            "/img/art/sculpts/urban-warfare.png",
+            "/img/art/sculpts/strigoi.png",
+            "/img/art/sculpts/starkiller1.png",
+            "/img/art/sculpts/starkiller2.png",
+            "/img/art/sculpts/sam.png",
+            "/img/art/sculpts/neo.png",
+            "/img/art/sculpts/juggernaut.png"
         ]
     }
 ]

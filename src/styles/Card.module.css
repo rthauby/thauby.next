@@ -40,6 +40,7 @@
     padding: 2rem 4rem;
     box-shadow: 1rem 1rem 0 rgba(0, 0, 0, 0.25); }
   .cardImage {
+    position: relative !important;
     margin-bottom: 1rem;
     width: 100%; }
   .cardImage:first-child {

@@ -8,7 +8,7 @@ class About extends Component {
       <section id="about" className={styles.about}>
           <div className="row aligned-center">
               <div className="text-center medium-4 columns">
-                  <Image src="/img/me-square.jpg" className={styles.about__mugshot} alt="moi"></Image>
+                  <Image src="/img/me-square.jpg" className={styles.about__mugshot} width='1000' height='1000' alt="moi"></Image>
               </div>
               <div className="small-8 small-offset-2 end medium-offset-0 medium-8 columns about__content">
                   <h3>About</h3>
