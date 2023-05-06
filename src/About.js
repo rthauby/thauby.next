@@ -10,10 +10,8 @@ class About extends Component {
               <div className="text-center medium-4 columns">
                   <Image src="/img/me-square.jpg" className={styles.about__mugshot} width='1000' height='1000' alt="moi"></Image>
               </div>
-              <div className="small-8 small-offset-2 end medium-offset-0 medium-8 columns about__content">
-                  <h3>About</h3>
-                  <p>Hi, My name is Rodrigo Thauby, I&#39;m a Software Engineer</p><p>This is me: At any given moment you&#39;ll find me behind my monitor working on a UX Design problem, developing a new application and tinkering with new technologies &mdash; or at night: sculpting in Zbrush or getting completely owned in online games.</p>
-                  <p>Prepare to be slightly amused by my stuff.</p>
+              <div className={`small-8 small-offset-2 end medium-offset-0 medium-8 columns ${styles.about__content}`}>
+                  <p>Rodrigo Thauby is an experienced Software Developer who specializes in building high-performing software and exceptional engineering teams.</p>
               </div>
           </div>
       </section>

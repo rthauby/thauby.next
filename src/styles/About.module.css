@@ -5,8 +5,9 @@
   justify-content: center;
   background-image: url("/img/den.png");
   background-size: cover;
-  text-shadow: 0 1px 1px black;
-  font-weight: 600; }
+  text-shadow: 2px 1px 1px black;
+  font-weight: 600; 
+}
 
 @media screen and (min-width: 40em) {
   .about {
@@ -30,4 +31,5 @@
   font-weight: normal; }
 
 .about__content p {
-  font-size: 1rem; }
+  font-size: 2.5rem; 
+}

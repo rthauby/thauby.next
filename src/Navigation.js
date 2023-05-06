@@ -43,8 +43,8 @@ class Navigation extends Component {
 
                   <ul className={styles.navigation__list}>
                       <li className={styles.navList__item}><Link href="/" activeClassName="selected" onClick={this.handleCloseNav}>Home</Link></li>
-                      <li className={styles.navList__item}><Link href="/work" activeClassName="selected" onClick={this.handleCloseNav}>Work</Link></li>
-                      <li className={styles.navList__item}><Link href="/hobbies" activeClassName="selected" onClick={this.handleCloseNav}>Hobbies</Link></li>
+                      {/* <li className={styles.navList__item}><Link href="/work" activeClassName="selected" onClick={this.handleCloseNav}>Work</Link></li>
+                      <li className={styles.navList__item}><Link href="/hobbies" activeClassName="selected" onClick={this.handleCloseNav}>Hobbies</Link></li>\ */}
                   </ul>
               </div>
           </div>
