@@ -31,9 +31,7 @@
     background-color: transparent; }
   .card__body {
     text-align: left;
-    position: absolute;
-    top: 0;
-    left: 1rem;
+
     width: 50%;
     background: rgba(255, 255, 255, 0.95);
     color: black;
@@ -44,7 +42,8 @@
     margin-bottom: 1rem;
     width: 100%; }
   .cardImage:first-child {
-    margin-top: 10rem; }
+    margin-top: 30px; 
+  }
   .embedded .spacer {
     padding-top: 10rem; } }
 
