@@ -7,9 +7,7 @@ export default function Home() {
   return (
     <div>
       <Navigation />
-      <Intro />
       <About />
-      <Footer />
     </div>
   )
 }
