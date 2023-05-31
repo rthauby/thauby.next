@@ -1,0 +1,18 @@
+#navigation {
+  background: white;
+  height: 70px;
+  padding: 10px 0;
+
+  a {
+    color: $myBlue;
+  }
+  
+  h1 a {
+    img {
+      background-color: $myBlue;
+    }
+    span {
+      display: none;
+    }
+  }
+}

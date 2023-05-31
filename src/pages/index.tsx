@@ -1,15 +1,15 @@
-import Navigation from '@/Navigation'
-import About from '@/About'
-import Intro from '@/Intro'
-import Footer from '@/Footer'
+import Navigation from '@/pages/Navigation'
+import About from '@/pages/About'
+import Intro from '@/pages/Intro'
+import Footer from '@/pages/Footer'
 
 export default function Home() {
   return (
-    <div>
+    <div className="font-sans">
       <Navigation />
-      <section className='main'>
-        <About />
-      </section>
+      <About/>
+      <Intro />
+      <Footer />
     </div>
   )
 }
