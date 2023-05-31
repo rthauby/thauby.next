@@ -1,39 +1,23 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 class Navigation extends Component {
-
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      navClass : 'closed'
-    }
-  }
-
-  handleMobileNavClick(e){
-    const el = e.currentTarget;
-    el.classList.toggle('open');
-
-    if(el.classList.contains('open')){
-      this.setState({'navClass':'open'});
-    } else {
-      this.setState({'navClass':'closed'});
-    }
-  }
-
-  handleCloseNav = () => {
-    this.setState({'navClass':'closed'});
-  }
-
   render() {
     return (
       <nav id="navigation" className="container mx-auto">
-        <div className="mx-12">
-        <h1><Link href="/">Rodrigo Thauby</Link></h1>
-          <ul>
-            <li><Link href="/" onClick={this.handleCloseNav}>About</Link></li>
-          </ul>
+        <div className="mx-12 flex">
+          <h1 className='flex-none'>
+            <Link href="/">
+              <span>Rodrigo Thauby</span>
+              <Image className='rounded-full p-1' src="/img/cookie.png" alt="Cookie!" width="50" height="50" />
+            </Link>
+          </h1>
+          <div className='flex-1 flex flex-row-reverse items-center'>
+            <Link href="https://www.linkedin.com/in/thauby/">
+              <Image src="/img/logos/linkedin-svgrepo-com.svg" alt="ESLint" width="24" height="24" />
+            </Link>
+          </div>
         </div>
       </nav>
     );
