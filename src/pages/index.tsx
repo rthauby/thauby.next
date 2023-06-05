@@ -1,7 +1,8 @@
-import Navigation from '@/pages/Navigation'
-import About from '@/pages/About'
-import Intro from '@/pages/Intro'
-import Footer from '@/pages/Footer'
+import Navigation from '@/pages/components/Navigation'
+import About from '@/pages/components/About'
+import Intro from '@/pages/components/Intro'
+import Footer from '@/pages/components/Footer'
+import Work from '@/pages/components/Work'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Navigation />
       <About/>
       <Intro />
+      <Work />
       <Footer />
     </div>
   )

@@ -50,7 +50,7 @@ class Intro extends Component {
             </div>
 
             <div className="bg-white py-24 space-y-12">
-              <div className="mx-auto max-w-7xl px-6 lg:px-8 bg-slate-200 rounded sm:py-8">
+              <div className="mx-auto max-w-7xl px-6 lg:px-8 bg-slate-200 sm:py-8">
                 <h2 className="text-center font-semibold leading-8 text-gray-900">These are some of the technologies and platforms I&apos;m enjoying using right now:</h2>
                 <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4">
                   {logos.map((logo, i) => {
