@@ -45,8 +45,9 @@ class Intro extends Component {
           <div className="mx-12 text-2xl leading-relaxed">
             <div className="space-y-12">
               <h2 className="font-semibold leading-8">Hi, I&apos;m Rigo.</h2>
-              <p>I&apos;m a software engineer with over 15 years of experience. That means I&apos;ve been around to see a lot of changes in the software industry and adapt to a never-ending wave of new technologies to learn.</p>
-              <p>Through it all, my interest has always been in working as close to the user as possible. Working on clients has the distinct benefit to see the results of your work immediately, and to see the impact that every decision has over the User Experience.</p>
+              <p>As an experienced software engineer with over 15 years in the field, I&apos;ve had the privilege of witnessing the incredible evolution of the software industry. Embracing the constant influx of new technologies has been an exciting journey.</p>
+              <p>Throughout it all, I&apos;ve maintained a deep passion for working closely with users. There&apos;s something truly rewarding about seeing the immediate impact of our work when collaborating with clients. Every decision made directly affects the user experience, and that&apos;s where my focus truly shines.</p>
+              <p>Let&apos;s join forces and create software solutions that not only impress but also make users smile. Together, we can craft remarkable experiences that leave a lasting impression.</p>
             </div>
 
             <div className="bg-white pt-24 pb-12 space-y-12">
