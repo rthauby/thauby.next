@@ -16,7 +16,7 @@ const JobBlock = (props) => {
         </div>
         <div className='mx-12 max-w-md flex-none rounded-md bg-slate-200 px-8 py-4 shadow-xl border-solid border-2 border-slate-300'>
           {props.job.images.map((img) => {
-            return <Image key={`img-${uuidv4()}`} className='rounded-md my-4' src={img} width='800' height='400' />
+            return <Image key={`img-${uuidv4()}`} className='rounded-md my-4' src={img} width='320' height='250' />
           })}
         </div>
       </div>
