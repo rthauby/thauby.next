@@ -11,6 +11,9 @@ const CollateralLinks = (props) => {
       <Link className='mx-2' href="https://github.com/rthauby">
         <Image src="/img/logos/github-svgrepo-com.svg" alt="Github" width="24" height="24" />
       </Link>
+      <Link className='mx-2' href="https://www.artstation.com/pucho">
+        <Image src="/img/logos/artstation-svgrepo-com.svg" alt="Artstation" width="24" height="24" />
+      </Link>
     </div>
   )
 }
