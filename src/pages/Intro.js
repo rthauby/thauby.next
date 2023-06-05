@@ -70,14 +70,3 @@ class Intro extends Component {
 }
 
 export default Intro;
-
-/*
-<ul>
-  <li>React</li>
-  <li>Next.js</li>
-  <li>Typescript</li>
-  <li>Tailwind</li>
-  <li>Sass</li>
-  <li>Heroku</li>
-</ul>
-*/

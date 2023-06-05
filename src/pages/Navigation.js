@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import {CollateralLinks} from '@/pages/components/CollateralLinks'
 
 class Navigation extends Component {
   render() {
@@ -14,9 +15,7 @@ class Navigation extends Component {
             </Link>
           </h1>
           <div className='flex-1 flex flex-row-reverse items-center'>
-            <Link href="https://www.linkedin.com/in/thauby/">
-              <Image src="/img/logos/linkedin-svgrepo-com.svg" alt="ESLint" width="24" height="24" />
-            </Link>
+          <CollateralLinks />
           </div>
         </div>
       </nav>
