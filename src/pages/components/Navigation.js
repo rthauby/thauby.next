@@ -6,7 +6,7 @@ import CollateralLinks from '@/pages/components/CollateralLinks'
 class Navigation extends Component {
   render() {
     return (
-      <nav id="navigation" className="container mx-auto">
+      <nav id="navigation" className="max-w-screen-xl mx-auto">
         <div className="mx-12 flex">
           <h1 className='flex-none'>
             <Link href="/">
