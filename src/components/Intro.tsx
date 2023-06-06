@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import Image from 'next/image'
+import { v4 as uuidv4 } from 'uuid'
 
 const logos = [
   {
@@ -53,9 +54,9 @@ const Intro = () => {
             <div className='mx-auto lg:mx-52 px-12 lg:px-8 bg-slate-200 py-8 lg:rounded-md'>
               <h2 className='text-center font-semibold leading-8 text-gray-900 mb-4'>These are some of the technologies and platforms I&apos;m enjoying using right now:</h2>
               <div className='flex flex-wrap justify-center'>
-                {logos.map((logo, i) => {
+                {logos.map((logo) => {
                   return (
-                    <Image key={i} className='p-4' src={logo.url} alt={logo.alt} width={96} height={96} />
+                    <Image key={uuidv4()} className='p-4' src={logo.url} alt={logo.alt} width={96} height={96} />
                   )
                 })}
               </div>
