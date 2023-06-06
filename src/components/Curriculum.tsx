@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 const cv = [
   {
     'href': '/history/evernote',
-    'img': '/img/cv/evernote.png',
+    'img': '/img/cv/L_evernote.png',
     'title': 'Evernote',
     'position': 'Senior Software Engineer / Engineering Manager',
     'date': 'October 2019 - February 2023',
@@ -12,7 +12,7 @@ const cv = [
   },
   {
     'href': '/history/virtru',
-    'img': '/img/cv/virtru.png',
+    'img': '/img/cv/L_virtru.png',
     'title': 'Virtru',
     'position': 'UI Engineer',
     'date': 'August 2017 - March 2019',
@@ -22,7 +22,7 @@ const cv = [
 
 const Curriculum = () => {
   return (
-    <div className="max-w-screen-xl mx-auto relative pb-24 md:pt-24" id="work">
+    <div className="max-w-screen-xl mx-auto relative pb-24 md:pt-24" id="cv">
       <div className="mx-12 leading-relaxed">
         <h2 className='md:text-center text-2xl font-semibold leading-8 text-gray-900 mb-12'>Organizations I&apos;ve had the pleasure of working with:</h2>
         {cv.map((company) => {

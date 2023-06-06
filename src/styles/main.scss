@@ -58,3 +58,16 @@
         color: $myBlue;
     }
 }
+
+/** CV */
+#cv a {
+  border: 1px solid $myBlue;
+  color: $myBlue;
+  padding: .75rem 1rem;
+  &:hover {
+    background-color: white;
+    color: #fff;
+    text-decoration: none;
+    background: #3aa2e9;
+  }
+}

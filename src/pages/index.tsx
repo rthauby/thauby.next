@@ -11,6 +11,7 @@ export default function Home() {
       <Navigation />
       <About/>
       <Intro />
+      <Curriculum />
       <Work />
       <Footer />
     </div>

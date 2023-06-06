@@ -15,7 +15,7 @@ const JobBlock = (props: {
       <div className='lg:flex gap-4'>
         <div className={`sm:mb-12 lg:mb-0 grid content-center flex-1 ${alignClass}`} >
           <div className='text-2 leading-8 pb-12 md:pb-0'>
-            <h2 className='text-2xl mb-4'>{props.job.title}</h2>
+            <h2 className='text-xl font-bold mb-2'>{props.job.title}</h2>
             <SanitizedHTML html={props.job.body} className='text-base leading-6 text-slate-600 flex flex-col space-y-4' />
           </div>  
         </div>
@@ -31,7 +31,7 @@ const JobBlock = (props: {
 
 const Work = () => {
   return (
-    <div className="max-w-screen-xl mx-auto relative pb-24 md:pt-24" id="work">
+    <div className="max-w-screen-xl mx-auto relative pb-24" id="work">
       <div className="mx-12 leading-relaxed">
           <h2 className='md:text-center text-2xl font-semibold leading-8 text-gray-900 mb-12'>Some of my older works</h2>
           {data.map((job, index) => {
