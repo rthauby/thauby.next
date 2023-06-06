@@ -13,7 +13,7 @@ const JobBlock = (props: {
   return (
     <div className='mb-32'>
       <div className='lg:flex gap-4'>
-        <div className={`sm:mb-12 lg:mb-0 grid content-center flex-1 ${alignClass}`} >
+        <div className={`sm:mb-12 lg:mb-0 grid flex-1 ${alignClass}`} >
           <div className='text-2 leading-8 pb-12 md:pb-0'>
             <h2 className='text-xl font-bold mb-2'>{props.job.title}</h2>
             <SanitizedHTML html={props.job.body} className='text-base leading-6 text-slate-600 flex flex-col space-y-4' />
