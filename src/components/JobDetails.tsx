@@ -5,7 +5,7 @@ const JobDetails = (props: {
 }) => {
   return (
     <div className='max-w-screen-xl mx-auto relative pb-24 pt-12' id='work'>
-      <div className='mx-12 md:mx-auto leading-relaxed space-y-4 text-sm max-w-lg'>
+      <div className='mx-12 md:mx-auto leading-relaxed space-y-4 text-md max-w-lg'>
         <ReactMarkdown>{props.body}</ReactMarkdown>
       </div>
     </div>
