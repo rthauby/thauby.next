@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const CollateralLinks = (props) => {
+const CollateralLinks = () => {
   return (
     <div className='flex justify-center'>
       <Link className='mx-2' href="https://www.linkedin.com/in/thauby/">

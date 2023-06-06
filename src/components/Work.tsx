@@ -1,9 +1,15 @@
 import data from '@/data/work.json'
 import Image from 'next/image'
+import { ReactElement, JSXElementConstructor, ReactFragment, ReactPortal } from 'react';
 import SanitizedHTML from 'react-sanitized-html';
 import { v4 as uuidv4 } from 'uuid';
 
-const JobBlock = (props) => {
+const JobBlock = (props: { 
+    position: string; 
+    job: { title: string ; 
+    body: any; 
+    images: any[]; 
+  }; }) => {
   const alignClass = props.position === 'left' ? '' : 'order-last'
   return (
     <div className='mb-32'>
@@ -15,8 +21,8 @@ const JobBlock = (props) => {
           </div>  
         </div>
         <div className='md:mx-12 max-w-md flex-none rounded-md bg-slate-200 px-4 md:px-8 md:py-4 shadow-xl border-solid border-2 border-slate-300'>
-          {props.job.images.map((img) => {
-            return <Image key={`img-${uuidv4()}`} className='rounded-md my-4' src={img} width='480' height='320' />
+          {props.job.images.map((img, index) => {
+            return <Image alt={`props.job.title - photo ${index}`} key={`img-${uuidv4()}`} className='rounded-md my-4' src={img} width='480' height='320' />
           })}
         </div>
       </div>
@@ -24,7 +30,7 @@ const JobBlock = (props) => {
   )
 }
 
-const Work = (props) => {
+const Work = () => {
   return (
     <div className="max-w-screen-xl mx-auto relative pb-24 md:pt-24" id="work">
       <div className="mx-12 leading-relaxed">

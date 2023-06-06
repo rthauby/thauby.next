@@ -1,5 +1,53 @@
 @import "variables";
-@import "Navigation.module";
-@import "About.module";
-@import "Intro.module";
-@import "Work.module";
+
+/** Navigation */
+#navigation {
+    background: white;
+    height: 70px;
+    padding: 10px 0;
+  
+    a {
+      color: $myBlue;
+    }
+    
+    h1 a {
+      img {
+        background-color: $myBlue;
+      }
+      span {
+        display: none;
+      }
+    }
+}
+
+/** Mini Header */
+.miniHeader {
+    background-color: #3aa2e9;
+    background-image: linear-gradient(180deg, #3aa2e9, #83c3de);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+/** About */
+.about {
+    background-color: #3aa2e9;
+    background-image: linear-gradient(180deg, #3aa2e9, #83c3de);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+/** Intro */
+#intro {
+    img {
+        fill: #616161;
+    }
+}
+
+/** Work */
+#work {
+    a {
+        color: $myBlue;
+    }
+}
