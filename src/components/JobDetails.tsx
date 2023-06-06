@@ -1,4 +1,5 @@
 import ReactMarkdown from 'react-markdown'
+// @ts-ignore
 import evernote from '@/md/evernote.md'
 
 const JobDetails = () => {
