@@ -1,6 +1,5 @@
 import data from '@/data/work.json'
 import Image from 'next/image'
-import { ReactElement, JSXElementConstructor, ReactFragment, ReactPortal } from 'react';
 import SanitizedHTML from 'react-sanitized-html';
 import { v4 as uuidv4 } from 'uuid';
 

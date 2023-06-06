@@ -1,12 +1,12 @@
 import ReactMarkdown from 'react-markdown'
-// @ts-ignore
-import evernote from '@/md/evernote.md'
 
-const JobDetails = () => {
+const JobDetails = (props: {
+  body: any
+}) => {
   return (
-    <div className='max-w-screen-xl mx-auto relative pb-24 md:pt-24' id='work'>
-      <div className='mx-12 leading-relaxed space-y-4 text-sm'>
-        <ReactMarkdown>{evernote}</ReactMarkdown>
+    <div className='max-w-screen-xl mx-auto relative pb-24 pt-12' id='work'>
+      <div className='mx-12 md:mx-auto leading-relaxed space-y-4 text-sm max-w-lg'>
+        <ReactMarkdown>{props.body}</ReactMarkdown>
       </div>
     </div>
   )
