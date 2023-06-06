@@ -2,8 +2,22 @@ import Image from 'next/image'
 import Link from 'next/link'
 import SanitizedHTML from 'react-sanitized-html';
 
+const ConditionalLink = (props: {
+  href: string | undefined
+}) => {
+  if(props.href) {
+    return (
+      <Link
+        href={props.href}
+        className='moreLink rounded-full'
+      >View Details</Link>
+    )
+  }
+  return (null)
+}
+
 const CVBlock = (props: {
-  href: string,
+  href: string | undefined,
   img: string,
   title: string,
   position: string,
@@ -11,7 +25,7 @@ const CVBlock = (props: {
   body: string,
 }) => {
   return (
-    <div className='md:flex flex-nowrap mb-8'>
+    <div className='md:flex flex-nowrap mb-8 md:mb-24'>
       <div className='flex-none pr-8 mb-8'>
         <Image className='rounded-full bg-slate-200 p-4' src={props.img} width={128} height={128} alt={props.title} />
       </div>
@@ -23,10 +37,7 @@ const CVBlock = (props: {
         <h3 className='mb-2 font-bold'>{props.position}</h3>
         <h3 className='mb-6'>{props.date}</h3>
         <div className='text-center'>
-          <Link
-            href={props.href}
-            className='moreLink rounded-full'
-          >View Details</Link>
+          <ConditionalLink href={props.href} />
         </div>
       </div>
     </div>
