@@ -26,8 +26,8 @@ const CVBlock = (props: {
 }) => {
   return (
     <div className='md:flex flex-nowrap mb-8 md:mb-12'>
-      <div className='flex-none pr-8 mb-8'>
-        <Image className='rounded-full bg-slate-200 p-4' src={props.img} width={128} height={128} alt={props.title} />
+      <div className='flex-none md:pr-8 mb-8'>
+        <Image className='mx-auto rounded-full bg-slate-200 p-4' src={props.img} width={128} height={128} alt={props.title} />
       </div>
       <div className='flex-initial'>
         <h2 className='text-xl font-bold mb-2'>{props.title}</h2>
