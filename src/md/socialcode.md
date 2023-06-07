@@ -8,6 +8,6 @@ I also streamlined CSS style generation through a modular pattern known as BEM (
 
 Working in an agile environment, I built features collaboratively and actively participated in daily scrum meetings. By embracing agile methodologies, I demonstrated my adaptability and commitment to delivering projects on time and within budget.
 
-Throughout my time at SocialCode, I consistently strived to be an achiever, going beyond the role of a &quot;doer.&quot; My ability to collaborate effectively with cross-functional teams, leverage innovative technologies, and streamline development processes allowed me to make a tangible impact on the success of our products.
+My ability to collaborate effectively with cross-functional teams, leverage innovative technologies, and streamline development processes allowed me to make a tangible impact on the success of our products.
 
 I am proud of the achievements I made during my tenure at SocialCode and am excited to apply my skills and experiences to future opportunities. I am confident that my passion for excellence, collaborative mindset, and technical proficiency will continue to drive the success of future projects and contribute to the growth of the teams I work with.

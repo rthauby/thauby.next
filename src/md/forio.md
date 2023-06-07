@@ -1,4 +1,4 @@
-During my tenure as a Software Engineer at Forio Business Simulations from July 2008 to April 2012, I achieved significant accomplishments that demonstrate my ability to excel in my role as an achiever, delivering exceptional results while maintaining a personable and professional approach.
+During my tenure as a Software Engineer at Forio Business Simulations from July 2008 to April 2012, I achieved significant accomplishments that demonstrate my ability to excel in my role, delivering exceptional results while maintaining a personable and professional approach.
 
 One of my key achievements was designing and developing an interface for the main online product, &quot;Simulate.&quot; I conducted extensive usability tests and refined the interface based on user feedback, ensuring an intuitive and user-friendly experience. By actively seeking user input and implementing improvements, I contributed to the success of the product and enhanced user satisfaction.
 

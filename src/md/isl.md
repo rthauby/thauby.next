@@ -8,6 +8,4 @@ I also took on a mentoring role, guiding apprentices and junior developers in th
 
 In addition to my technical contributions, I founded and hosted the Game Development guild, creating a platform where engineers and non-engineers alike could learn the intricacies of Unity and Unreal Engine development. By sharing my passion for game development, I facilitated a collaborative and educational environment, empowering others to expand their skills and explore their creative potential.
 
-Throughout my time at ISL, I consistently demonstrated my commitment to achieving results and driving innovation. My ability to work effectively with cross-functional teams, mentor others, and push the boundaries of technology showcased me as an achiever, dedicated to delivering exceptional outcomes.
-
 I am proud of the accomplishments I achieved during my tenure at ISL, and I am excited to leverage my achievements and skills in future endeavors. I am confident that my passion for excellence, collaborative mindset, and technical proficiency will continue to contribute to the success of future projects and teams.

@@ -12,4 +12,4 @@ Throughout my tenure at Virtru, I demonstrated a strong commitment to achieving 
 
 In addition to my technical achievements, I also fostered positive working relationships with colleagues and maintained a professional and friendly demeanor. I valued open communication and teamwork, which contributed to a positive and productive work environment.
 
-I am proud of the accomplishments I achieved during my time at Virtru. I firmly believe that my dedication, technical expertise, and ability to collaborate effectively were instrumental in driving the success of the projects I worked on. I am excited to apply my achievements and skills to future opportunities, and I am confident that I will continue to excel in my career as an achiever in the UI Engineering field.
+I am proud of the accomplishments I achieved during my time at Virtru. I firmly believe that my dedication, technical expertise, and ability to collaborate effectively were instrumental in driving the success of the projects I worked on. 
