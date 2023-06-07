@@ -60,13 +60,13 @@
 }
 
 /** CV */
-#cv a {
+.btn {
   border: 1px solid $myBlue;
-  color: $myBlue;
+  color: $myBlue !important;
   padding: .75rem 1rem;
   &:hover {
     background-color: white;
-    color: #fff;
+    color: #fff !important;
     text-decoration: none;
     background: #3aa2e9;
   }

@@ -9,7 +9,7 @@ const ConditionalLink = (props: {
     return (
       <Link
         href={props.href}
-        className='moreLink rounded-full'
+        className='btn rounded-full'
       >View Details</Link>
     )
   }

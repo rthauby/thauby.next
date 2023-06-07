@@ -1,4 +1,4 @@
-import Tech from '@/components/Tech'
+import Link from 'next/link'
 
 const Intro = () => {
   return (
@@ -12,8 +12,13 @@ const Intro = () => {
             <p>Throughout it all, I&apos;ve maintained a deep passion for working closely with users. There&apos;s something truly rewarding about seeing the immediate impact of our work when working on the client-side. Every decision made directly affects the user experience, and that&apos;s where my focus truly shines.</p>
             <p>Let&apos;s join forces and create software solutions that not only impress but also make users smile. Together, we can craft remarkable experiences that leave a lasting impression.</p>
           </div>
-
-          <Tech />
+          <div className='text-center mt-12'>
+            <Link
+                href='/work'
+                className='btn rounded-full'
+              >See more
+            </Link>
+          </div>
 
         </div>
       </div>
