@@ -25,7 +25,7 @@ const CVBlock = (props: {
   body: string,
 }) => {
   return (
-    <div className='md:flex flex-nowrap mb-8 md:mb-24'>
+    <div className='md:flex flex-nowrap mb-8 md:mb-12'>
       <div className='flex-none pr-8 mb-8'>
         <Image className='rounded-full bg-slate-200 p-4' src={props.img} width={128} height={128} alt={props.title} />
       </div>
@@ -39,6 +39,7 @@ const CVBlock = (props: {
         <div className='text-center'>
           <ConditionalLink href={props.href} />
         </div>
+        <hr className='h-px mt-12 bg-gray-200 border-0 dark:bg-slate-200' />
       </div>
     </div>
   )
