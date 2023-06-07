@@ -1,0 +1,13 @@
+During my tenure as a Software Engineer at Forio Business Simulations from July 2008 to April 2012, I achieved significant accomplishments that demonstrate my ability to excel in my role as an achiever, delivering exceptional results while maintaining a personable and professional approach.
+
+One of my key achievements was designing and developing an interface for the main online product, &quot;Simulate.&quot; I conducted extensive usability tests and refined the interface based on user feedback, ensuring an intuitive and user-friendly experience. By actively seeking user input and implementing improvements, I contributed to the success of the product and enhanced user satisfaction.
+
+I also had the privilege of designing and developing interfaces for multiple simulation projects for prestigious universities such as Harvard, MIT, and The Wharton School of Business. By collaborating closely with clients and stakeholders, I translated their vision into engaging and interactive interfaces. My attention to detail and dedication to delivering high-quality solutions enabled me to exceed client expectations and contribute to the success of these projects.
+
+In addition to my design and development work, I successfully managed project timelines and coordination for each simulation. This involved scheduling iteration meetings with clients, refining the product based on feedback, and coordinating user tests. By effectively managing project milestones and ensuring clear communication, I facilitated seamless project execution and client satisfaction.
+
+Throughout my tenure at Forio, I demonstrated technical expertise in various languages and frameworks, including HTML (Velocity), JavaScript (jQuery and YUI), and some projects in Flex. This versatility allowed me to adapt to different project requirements and deliver high-quality interfaces tailored to specific needs.
+
+Moreover, I actively developed tools for testing, including automation tools for XMPP-based chat and bots for simulation testing. Additionally, I contributed to the development of tests for the Selenium IDE for Firefox, ensuring the quality and reliability of the software.
+
+I am proud of the achievements I made during my time at Forio Business Simulations. By combining technical proficiency, effective project management, and a dedication to user satisfaction, I consistently delivered exceptional results. I am excited to leverage these achievements and skills in future endeavors, contributing to the success of new projects and teams.

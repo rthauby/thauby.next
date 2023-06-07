@@ -1,19 +1,9 @@
-import Navigation from '@/components/Navigation'
-import MiniHeader from '@/components/MiniHeader'
-import MiniHero from '@/components/MiniHero'
-import JobDetails from '@/components/JobDetails'
-import Footer from '@/components/Footer'
+import CVDetail from '@/components/CVDetail'
 // @ts-ignore
-import evernote from '@/md/virtru.md'
+import virtru from '@/md/virtru.md'
 
 export default function Page() {
   return (
-    <div className="font-sans">
-      <Navigation />
-      <MiniHeader title='Evernote'/>
-      <MiniHero url='/img/jdImages/virtru.png' />
-      <JobDetails body={evernote} />
-      <Footer />
-    </div>
+    <CVDetail title='Virtru' img='/img/jdImages/virtru.jpg' body={virtru} />
   )
 }
