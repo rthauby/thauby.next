@@ -1,35 +1,27 @@
 {
-  "name": "thauby.com.2023",
+  "name": "thauby.next",
   "version": "0.1.0",
-  "engines": {
-    "node": "19.8.1"
-  },
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint"
   },
   "dependencies": {
-    "@types/node": "18.16.3",
-    "@types/react": "18.2.0",
-    "@types/react-dom": "18.2.1",
-    "autoprefixer": "10.4.14",
-    "eslint": "8.39.0",
-    "eslint-config-next": "13.3.2",
-    "next": "13.3.2",
-    "postcss": "8.4.23",
-    "raw-loader": "^4.0.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-markdown": "^8.0.7",
-    "react-safe-html": "^0.6.1",
-    "react-sanitized-html": "^2.0.0",
-    "sanitize-html": "^2.10.0",
-    "sass": "^1.62.1",
-    "tailwindcss": "3.3.2",
-    "typescript": "5.0.4",
-    "uuid": "^9.0.0"
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "next": "15.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.0",
+    "@eslint/eslintrc": "^3"
   }
 }
