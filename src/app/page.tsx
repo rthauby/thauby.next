@@ -9,8 +9,6 @@ export default function Home() {
       >
         <Spline
           scene="https://prod.spline.design/uOrI3Vv3SCBKcCmZ/scene.splinecode"
-          width={2560}
-          height={1440}
         />
       </div>
       <div className='h-full w-full absolute top-0 pointer-events-none flex justify-center'>
