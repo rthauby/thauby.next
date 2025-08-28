@@ -1,8 +1,9 @@
-import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import NavBar from "./navbar";
+import Footer from "./footer";
+import Contact from "./contact";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,10 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Thauby.com",
-  description: "Home of Rodrigo Thauby",
-};
+
 
 export default function RootLayout({
   children,
@@ -29,6 +27,8 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}>
         <NavBar />
         {children}
+        <Contact access_key={process.env.WEBFORMS_API_KEY} />
+        <Footer />
       </body>
     </html>
   );
