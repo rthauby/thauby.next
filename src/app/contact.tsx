@@ -1,5 +1,6 @@
 'use client';
 import React from "react";
+import CheckCircle from "./icons/check-circle";
 
 const TextArea = ({ label, placeholder, title }: { label: string, placeholder: string, title: string }) => (
   <div className='mb-8'>
@@ -22,12 +23,16 @@ const TextField = ({ label, placeholder, title }: { label: string, placeholder: 
 )
 
 export default function Contact({ access_key }: { access_key: string | undefined }) {
-  const onSubmit = async (event: any) => {
+  const [showSuccess, setShowSuccess] = React.useState(false);
+  const onSubmit = async (event: React.SyntheticEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
+    setShowSuccess(true);
+    const target = event.target as HTMLFormElement;
+    const formData = new FormData(target)
 
     formData.append("access_key", access_key || "");
 
+    setShowSuccess(false);
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData
@@ -36,16 +41,22 @@ export default function Contact({ access_key }: { access_key: string | undefined
     const data = await response.json();
 
     if (data.success) {
-      event.target.reset();
+      target.reset();
+      setShowSuccess(true);
+      setTimeout(() => setShowSuccess(false), 1000);
     } else {
       console.error("Error", data);
+      target.reset();
     }
   };
 
   return (
     <>
       <div className="min-h-[75vh] flex flex-col justify-center border-t border-gray-800">
-        <div className="mx-auto w-full max-w-lg xl:max-w-2xl">
+        <div className="mx-auto w-full max-w-lg xl:max-w-2xl relative">
+          <div className="absolute h-full w-full flex justify-center items-center pointer-events-none">
+            <CheckCircle className={`${(showSuccess ? '' : 'hidden')} size-24 animate-[ping_1s_ease-in-out_infinite]`} fill="#26de82" />
+          </div>
           <h2 className="text-3xl font-bold uppercase pb-6">Drop a line.</h2>
           <form onSubmit={onSubmit}>
             <TextField title='name' label='Full Name' placeholder='Stanley Lieber' />
