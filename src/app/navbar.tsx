@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <nav className="fixed z-100 w-full pointer-events-none border-b border-gray-800 bg-gray-950">
       <div className="mx-auto w-full max-w-2xl xl:max-w-5xl flex justify-between">
-        <div className="py-4 flex text-2xl font-bold uppercase">
+        <div className="hidden sm:flex py-4  text-2xl font-bold uppercase">
           <h2>Rodrigo Thauby</h2>
         </div>
         <div className="py-4 flex justify-between items-center justify-end">

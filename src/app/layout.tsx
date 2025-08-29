@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} px-4 sm:px-0 antialiased overflow-x-hidden`}>
         <NavBar />
         {children}
         <Contact access_key={process.env.WEBFORMS_API_KEY} />

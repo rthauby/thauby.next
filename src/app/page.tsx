@@ -18,7 +18,7 @@ function Hero() {
           scene="https://prod.spline.design/uOrI3Vv3SCBKcCmZ/scene.splinecode"
         />
       </div>
-      <div className='absolute z-10 top-0 pointer-events-none h-full w-full flex flex-col justify-center'>
+      <div className='lg:absolute z-10 top-0 pointer-events-none h-full w-full flex flex-col justify-center'>
         <div className='pt-24 lg:pt-0 mx-auto w-full max-w-2xl xl:max-w-5xl sm:grid grid-cols-3 items-center'>
           <div className="col-span-2 text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">
             <h2 className='pb-8'>Hi,</h2>
@@ -26,13 +26,13 @@ function Hero() {
             <h2 className='pb-8'>A Programmer, Nerd, and Dad, living in Carlisle, PA.</h2>
           </div>
           <div className='col-span-1'>
-            <div className='sm:ml-12'>
+            <div className='sm:ml-12 text-center'>
               <Image
                 src="/me_and_lulu.png"
                 alt="Down Arrow"
                 width={512}
                 height={512}
-                className='rounded-full'
+                className='mb-12 sm:mb-0 inline-block rounded-full max-w-64 sm:max-w-full'
               />
             </div>
           </div>
