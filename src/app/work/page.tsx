@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import Container, { Section, SectionTitle } from "../container";
+import Container, { Section, SectionTitle } from "../components/container";
 
 export const metadata: Metadata = {
   title: "Work | Rodrigo Thauby",
@@ -9,11 +9,12 @@ export const metadata: Metadata = {
 export default function Work() {
   return (
     <>
-      <Container>
+      <Container className="min-h-[100vh]">
         <Section id="about">
           <SectionTitle title='About me.' />
           <p className="pb-8">My career has spanned front-end, back-end, and cloud infrastructure, with a deep focus on JavaScript, React, and AWS. I love taking ideas from whiteboard sketches to production-ready systems, and I thrive on helping teams grow, share knowledge, and ship software that actually solves problems.</p>
           <p className="pb-8">Along the way, I&apos;ve led small teams of developers, introduced CI/CD pipelines, modernized deployment strategies, and coached engineers to work smarter &mdash; not just harder. I believe in clear communication, maintainable code, and strong documentation as the foundation for any team&apos;s success.</p>
+
         </Section>
         <Section>
           <SectionTitle title='Where I&apos;ve Worked.' />
@@ -28,6 +29,7 @@ export default function Work() {
           <p className="pb-8">I&apos;ve also worked in games and creative tech. At Sparkypants Studios, I jumped into a fast-paced launch cycle, designing UI for real-time gameplay data and seeing it through to shipping. At iStrategyLabs, I built high-interactivity experiences for brands — everything from marketing campaigns to CMS systems — and even created the company&apos;s first VR proof of concept in Unreal Engine.</p>
 
           <p className="pb-8">Earlier in my career, I worked at SocialCode, where I prototyped new advertising tools, and at Forio Business Simulations in San Francisco, where I built dashboards and simulation interfaces for top universities like Harvard, MIT, and Wharton. Those years gave me a foundation in data visualization, usability, and building products for demanding clients.</p>
+
         </Section>
       </Container>
     </>

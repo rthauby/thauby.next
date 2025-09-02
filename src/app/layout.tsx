@@ -1,9 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-import NavBar from "./navbar";
-import Footer from "./footer";
-import Contact from "./contact";
+import NavBar from "./components/navbar";
+import Footer from "./components/footer";
+import Contact from "./components/contact";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} px-4 sm:px-0 antialiased overflow-x-hidden`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} px-4 lg:px-0 antialiased overflow-x-hidden`}>
         <NavBar />
         {children}
         <Contact access_key={process.env.WEBFORMS_API_KEY} />

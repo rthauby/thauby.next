@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from 'next/image';
 import Spline from '@splinetool/react-spline/next';
-import Container, { Section, SectionTitle } from './container';
+import Container, { Section, SectionTitle } from './components/container';
 
 export const metadata: Metadata = {
   title: "Home | Rodrigo Thauby",
@@ -38,8 +38,6 @@ function Hero() {
           </div>
         </div>
       </div>
-
-
     </div>
   </>
 }
