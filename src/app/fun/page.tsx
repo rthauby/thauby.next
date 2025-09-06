@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import Container, { Section, SectionTitle } from "../components/container";
+import Container, { Section, SectionTitle, SectionBody } from "../components/container";
 import { Project } from "../types/project";
 import ProjectViewer from "../components/project-viewer";
 import PaintBrush from "../components/icons/paint-brush";
@@ -49,14 +49,18 @@ export default function Work() {
   return (
     <>
       <Container>
-        <Section id="fun">
+        {/* <Section id="fun_header">
           <SectionTitle title='Fun Stuff.' />
-          <div className="lg:grid grid-cols-3 gap-12">
-            <div className='mb-24 col-span-2 text-2xl space-y-8'>
-              <p>A collection of my favorite 3D printed models, mostly hand painted by myself. Some of them even sculpted by myself digitally, and others in real mixed media.</p>
-            </div>
-          </div>
-          <div className="mx-auto">
+          <SectionBody>
+            <p>Stuff that keeps me busy and happy.</p>
+          </SectionBody>
+        </Section> */}
+        <Section>
+          <SectionTitle title='Finished Models.' />
+          <SectionBody>
+            <p>A collection of my favorite 3D printed models, mostly hand painted by myself. Some of them even sculpted by myself digitally, and others in real mixed media.</p>
+          </SectionBody>
+          <div className="mx-auto pt-24 ">
             {MODELS.map((model) => (
               <ProjectViewer key={model.title} model={model} className="mb-24" />
             ))}

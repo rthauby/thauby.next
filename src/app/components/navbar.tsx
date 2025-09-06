@@ -11,6 +11,7 @@ export default function NavBar() {
           <div className="space-x-8 pointer-events-auto text-2xl">
             <Link href="/" className="hover:underline">Home</Link>
             <Link href="/work" className="hover:underline">Work</Link>
+            <Link href="/fun" className="hover:underline">Fun Stuff</Link>
           </div>
         </div>
       </div>

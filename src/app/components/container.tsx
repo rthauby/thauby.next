@@ -1,11 +1,21 @@
+function SectionBody({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="lg:grid grid-cols-3 gap-12">
+      <div className='col-span-2 text-2xl space-y-8'>
+        {children}
+      </div>
+    </div>
+  )
+}
 function SectionTitle({ title }: { title: string }) {
   return <h2 className="text-3xl font-bold uppercase pb-6">{title}</h2>
 }
-function Section(props: { children: React.ReactNode, id?: string }) {
-  if (props.id) {
-    return <section id={props.id} className="pt-24 text-3xl/10">{props.children}</section>
-  }
-  return <section className="pt-32 text-3xl/10">{props.children}</section>
+function Section({ children, id }: { children: React.ReactNode, id?: string }) {
+  return (
+    <section id={id ? id : undefined} className="pt-24 text-3xl/10">
+      {children}
+    </section>
+  )
 }
 
 export default function Container({ children, className }: { children: React.ReactNode, className?: string }) {
@@ -18,4 +28,4 @@ export default function Container({ children, className }: { children: React.Rea
   </>)
 }
 
-export { Section, SectionTitle }
+export { Section, SectionTitle, SectionBody }
