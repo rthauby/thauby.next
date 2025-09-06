@@ -50,7 +50,7 @@ export default function ProjectViewer({ model, className }: { model: Project, cl
           <Image
             width={800}
             height={600}
-            src={`/fun-stuff/${images[mainImageIndex]}`}
+            src={`/${images[mainImageIndex]}`}
             alt={`${model.title} image 1`}
             className="w-full h-auto rounded-lg shadow-md"
           />
