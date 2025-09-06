@@ -58,7 +58,7 @@ export default function Work() {
         <Section>
           <SectionTitle title='Finished Models.' />
           <SectionBody>
-            <p>A collection of my favorite 3D printed models, mostly hand painted by myself. Some of them even sculpted by myself digitally, and others in real mixed media.</p>
+            <p>A collection of my favorite 3D printed models, mostly hand painted. Most are 3D Prints of art by talented sculptors online, but some of them are sculpted by myself in real media and digitally.</p>
           </SectionBody>
           <div className="mx-auto pt-24 ">
             {MODELS.map((model) => (
