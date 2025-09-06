@@ -48,8 +48,8 @@ export default function ProjectViewer({ model, className }: { model: Project, cl
       <div className="lg:grid grid-cols-3 gap-12">
         <div className="col-span-2 mb-8 lg:mb-0">
           <Image
-            width={800}
-            height={600}
+            width={512}
+            height={512}
             src={`/${images[mainImageIndex]}`}
             alt={`${model.title} image 1`}
             className="w-full h-auto rounded-lg shadow-md"
