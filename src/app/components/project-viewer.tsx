@@ -44,15 +44,13 @@ export default function ProjectViewer({ model, className }: { model: Project, cl
     setMainImageIndex(index);
   }
 
-  console.log('Rendering ProjectViewer for', model);
-
   return (<>
     <div key={model.title} className={className}>
       <div className="lg:grid grid-cols-3 gap-12">
         <div className="col-span-2 mb-8 lg:mb-0">
           <Image
-            width={512}
-            height={512}
+            width={2435}
+            height={3652}
             src={images[mainImageIndex].src}
             alt={`${model.title} image 1`}
             className="w-full h-auto rounded-lg shadow-md"
