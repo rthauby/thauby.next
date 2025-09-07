@@ -4,6 +4,13 @@ import { Project } from "../types/project";
 import ProjectViewer from "../components/project-viewer";
 import PaintBrush from "../components/icons/paint-brush";
 import Printed from "../components/icons/3d-printed";
+import cable1 from './cable-001.png'
+import cable2 from './cable-002.png'
+import cable3 from './cable-003.png'
+import chunli1 from './chunli-001.png'
+import chunli2 from './chunli-002.png'
+import chunli3 from './chunli-003.png'
+import chunli4 from './chunli-004.png'
 
 export const metadata: Metadata = {
   title: "Fun Stuff | Rodrigo Thauby",
@@ -24,22 +31,13 @@ const TASKS = {
 const MODELS = [
   {
     title: 'Cable',
-    images: [
-      'cable-001.png',
-      'cable-002.png',
-      'cable-003.png',
-    ],
+    images: [cable1, cable2, cable3],
     description: 'From my go-to digital sculptor group, CA3D. 1/6 scale, 32cm tall, 3D printed and hand painted.\nCable is a battle-hardened, time-traveling mutant from the X-Men, known for his cybernetic enhancements, powerful telekinesis, and relentless fight to prevent a dark future.',
     tasks: [TASKS.printed, TASKS.painted]
   } as Project,
   {
     title: 'Chun-Li',
-    images: [
-      'chunli-001.png',
-      'chunli-002.png',
-      'chunli-003.png',
-      'chunli-004.png',
-    ],
+    images: [chunli1, chunli2, chunli3, chunli4],
     description: 'Also from CA3D. 1/6 scale, 34cm tall, 3D printed and hand painted.\nChun-Li is a skilled martial artist and Interpol officer from the Street Fighter series. Renowned for her lightning-fast kicks, determination, and iconic role as the first female fighter in the series.',
     tasks: [TASKS.printed, TASKS.painted]
   } as Project,

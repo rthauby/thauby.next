@@ -16,6 +16,7 @@ function Thumbnail({
   className?: string,
   onClick: (index: number) => void
 }) {
+
   return (
     <div
       key={index}
@@ -43,6 +44,8 @@ export default function ProjectViewer({ model, className }: { model: Project, cl
     setMainImageIndex(index);
   }
 
+  console.log('Rendering ProjectViewer for', model);
+
   return (<>
     <div key={model.title} className={className}>
       <div className="lg:grid grid-cols-3 gap-12">
@@ -50,7 +53,7 @@ export default function ProjectViewer({ model, className }: { model: Project, cl
           <Image
             width={512}
             height={512}
-            src={`/${images[mainImageIndex]}`}
+            src={images[mainImageIndex].src}
             alt={`${model.title} image 1`}
             className="w-full h-auto rounded-lg shadow-md"
           />
@@ -81,11 +84,11 @@ export default function ProjectViewer({ model, className }: { model: Project, cl
           )}
 
           <div className="h-full w-full grid grid-cols-2 gap-6 place-content-start">
-            {images.map((src, index) => (
+            {images.map((image, index) => (
               <Thumbnail
                 key={index}
                 index={index}
-                src={`/fun-stuff/${src}`}
+                src={image.src}
                 alt={`${model.title} image ${index + 1}`}
                 onClick={handleClick}
               />
