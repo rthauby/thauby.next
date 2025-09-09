@@ -51,7 +51,7 @@ export default function ProjectViewer({ model, className }: { model: Project, cl
           <Image
             width={2435}
             height={3652}
-            src={images[mainImageIndex].src}
+            src={images[mainImageIndex]}
             alt={`${model.title} image 1`}
             className="w-full h-auto rounded-lg shadow-md"
           />
@@ -86,7 +86,7 @@ export default function ProjectViewer({ model, className }: { model: Project, cl
               <Thumbnail
                 key={index}
                 index={index}
-                src={image.src}
+                src={image}
                 alt={`${model.title} image ${index + 1}`}
                 onClick={handleClick}
               />

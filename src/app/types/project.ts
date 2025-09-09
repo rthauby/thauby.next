@@ -7,7 +7,7 @@ interface Task {
 
 export interface Project {
   title: string;
-  images?: StaticImageData[];
+  images?: string[];
   description?: string;
   tasks?: Task[];
 }
