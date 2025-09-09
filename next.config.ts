@@ -2,7 +2,14 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ["thauby.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**.run.app",
+        port: "",
+        search: "",
+      },
+    ],
   },
 };
 

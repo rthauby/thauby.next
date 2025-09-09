@@ -24,9 +24,9 @@ function Thumbnail({
     >
       <div className="h-0 pt-[100%] overflow-hidden relative rounded-lg bg-blue-300">
         <Image
+          src={src}
           width={200}
           height={200}
-          src={src}
           alt={alt}
           className="absolute top-0 w-full h-auto shadow-md mb-12 cursor-pointer hover:opacity-40 transition-opacity duration-200"
           onClick={() => onClick(index)}
