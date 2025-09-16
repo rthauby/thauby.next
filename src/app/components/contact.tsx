@@ -4,7 +4,7 @@ import CheckCircle from "./icons/check-circle";
 
 const TextArea = ({ label, placeholder, title }: { label: string, placeholder: string, title: string }) => (
   <div className='mb-8'>
-    <label htmlFor={title} className="block text-lg/6 font-medium dark:text-white">{label}</label>
+    <label htmlFor={title} className="block text-lg/6 font-medium">{label}</label>
     <div className="mt-2">
       <textarea required placeholder={placeholder} id={title} name={title} rows={5} className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-lg outline-1 -outline-offset-1 dark:outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"></textarea>
     </div>
@@ -13,7 +13,7 @@ const TextArea = ({ label, placeholder, title }: { label: string, placeholder: s
 
 const TextField = ({ label, placeholder, title }: { label: string, placeholder: string, title: string }) => (
   <div className='mb-8'>
-    <label htmlFor={title} className="block text-lg/6 font-medium dark:text-white">{label}</label>
+    <label htmlFor={title} className="block text-lg/6 font-medium">{label}</label>
     <div className="mt-2">
       <div className="flex items-center rounded-md bg-transparent/5 pl-3 outline-1 -outline-offset-1 dark:outline-white/10 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-500">
         <input required id={title} type="text" name={title} placeholder={placeholder} className="input:-internal-autofill-selected:bg-gray-800 block min-w-0 grow bg-transparent py-1.5 pr-3 pl-1 text-lg placeholder:text-gray-500 focus:outline-none" />
@@ -63,7 +63,7 @@ export default function Contact({ access_key }: { access_key: string | undefined
             <TextField title='email' label='Email' placeholder='the_man@excelsior.com' />
             <TextArea title='message' label='Message' placeholder='Message...' />
             <div className="text-right">
-              <button className="cursor-pointer bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded" type="submit">Submit</button>
+              <button className="cursor-pointer bg-gray-500 hover:bg-gray-700 font-bold py-2 px-4 rounded" type="submit">Submit</button>
             </div>
           </form>
         </div>

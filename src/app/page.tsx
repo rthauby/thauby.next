@@ -20,7 +20,7 @@ function Hero() {
       </div>
       <div className='lg:absolute z-10 top-0 pointer-events-none h-full w-full flex flex-col justify-center'>
         <div className='pt-24 lg:pt-0 mx-auto w-full max-w-2xl xl:max-w-5xl sm:grid grid-cols-3 items-center'>
-          <div className="col-span-2 text-5xl font-semibold tracking-tight text-balance dark:text-white sm:text-7xl">
+          <div className="col-span-2 text-5xl font-semibold tracking-tight text-balance sm:text-7xl">
             <h2 className='pb-8'>Hi,</h2>
             <h1 className='pb-8'>I&#39;m Rodrigo Thauby.</h1>
             <h2 className='pb-8'>A Programmer, Nerd, and Dad, living in Carlisle, PA.</h2>
