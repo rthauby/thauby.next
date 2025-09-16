@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function NavBar() {
   return (
-    <nav className="fixed z-100 w-full pointer-events-none border-b border-gray-800 bg-gray-950">
+    <nav className="fixed z-100 w-full pointer-events-none border-b border-gray-400 bg-gray-100 dark:border-gray-800 dark:bg-gray-950">
       <div className="mx-auto w-full lg:max-w-2xl xl:max-w-5xl flex justify-between">
         <div className="pointer-events-auto hidden lg:flex py-4 text-2xl font-bold uppercase">
           <Link href="/" className="hover:underline">Rodrigo Thauby</Link>

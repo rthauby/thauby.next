@@ -72,7 +72,7 @@ export default function ProjectViewer({ model, className }: { model: Project, cl
               {model.tasks.map((task, index) => (
                 <div
                   key={index}
-                  className="p-2 bg-gray-800 rounded-lg"
+                  className="p-2 bg-gray-200 dark:bg-gray-800 rounded-lg"
                   title={task.title}
                 >
                   {task.icon}
