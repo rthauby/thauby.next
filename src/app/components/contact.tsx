@@ -22,7 +22,9 @@ const TextField = ({ label, placeholder, title }: { label: string, placeholder: 
   </div>
 )
 
-export default function Contact({ access_key }: { access_key: string | undefined }) {
+export default function Contact() {
+  const ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || '';
+  console.log("Access Key:", ACCESS_KEY);
   const [showSuccess, setShowSuccess] = React.useState(false);
   const onSubmit = async (event: React.SyntheticEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -30,7 +32,7 @@ export default function Contact({ access_key }: { access_key: string | undefined
     const target = event.target as HTMLFormElement;
     const formData = new FormData(target)
 
-    formData.append("access_key", access_key || "");
+    formData.append("access_key", ACCESS_KEY);
 
     setShowSuccess(false);
     const response = await fetch("https://api.web3forms.com/submit", {

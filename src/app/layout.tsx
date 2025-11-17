@@ -27,7 +27,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} px-4 lg:px-0 antialiased overflow-x-hidden`}>
         <NavBar />
         {children}
-        <Contact access_key={process.env.NEXT_PUBLIC_WEBFORMS_API_KEY} />
+        <Contact />
         <Footer />
       </body>
     </html>
