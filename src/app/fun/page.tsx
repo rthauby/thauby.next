@@ -25,13 +25,13 @@ const MODELS = [
   {
     title: 'Cable',
     images: ['/cable-001.png', '/cable-002.png', '/cable-003.png'],
-    description: 'From my go-to digital sculptor group, CA3D. 1/6 scale, 32cm tall, 3D printed and hand painted.\nCable is a battle-hardened, time-traveling mutant from the X-Men, known for his cybernetic enhancements, powerful telekinesis, and relentless fight to prevent a dark future.',
+    description: 'From my go-to digital sculptor group, CA3D. 1/6 scale, 32cm tall, 3D printed and hand painted.',
     tasks: [TASKS.printed, TASKS.painted]
   } as Project,
   {
     title: 'Chun-Li',
     images: ['/chunli-001.png', '/chunli-002.png', '/chunli-003.png', '/chunli-004.png'],
-    description: 'Also from CA3D. 1/6 scale, 34cm tall, 3D printed and hand painted.\nChun-Li is a skilled martial artist and Interpol officer from the Street Fighter series. Renowned for her lightning-fast kicks, determination, and iconic role as the first female fighter in the series.',
+    description: 'Also from CA3D. 1/6 scale, 34cm tall, 3D printed and hand painted.',
     tasks: [TASKS.printed, TASKS.painted]
   } as Project,
 ]
