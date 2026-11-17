@@ -7,7 +7,7 @@ import Printed from "../components/icons/3d-printed";
 
 export const metadata: Metadata = {
   title: "Fun Stuff | Rodrigo Thauby",
-  description: "Home of Rodrigo Thauby",
+  description: "Rodrigo Thauby's side projects: 3D-printed and hand-painted statues and other creative work.",
 };
 
 const TASKS = {
