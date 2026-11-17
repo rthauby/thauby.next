@@ -6,7 +6,7 @@ import { ProfileLinks } from './components/profile-links';
 
 export const metadata: Metadata = {
   title: "Home | Rodrigo Thauby",
-  description: "Rodrigo Thauby — engineering manager and full-stack engineer with 17+ years of experience. Carlisle, PA.",
+  description: "Rodrigo Thauby, engineering manager and full-stack engineer with 17+ years of experience. Carlisle, PA.",
 };
 
 function Hero() {
@@ -50,7 +50,7 @@ function About() {
     <>
       <Section id="about">
         <SectionTitle title='About me.' />
-        <p className="pb-8">Hi, I&apos;m Rodrigo Thauby &mdash; a full-stack engineer and engineering manager with 17+ years of experience building web applications across industries. Today I build AI-powered tools and secure, production-grade systems for federal clients; before that I managed Evernote&apos;s Growth and Out-of-App teams. I enjoy solving complex problems, mentoring teams, and creating products that are simple, scalable, and impactful.</p>
+        <p className="pb-8">I&apos;m a full-stack engineer and engineering manager with 17+ years of experience building web applications across industries. Today I build AI-powered tools and secure, production-grade systems for federal clients; before that I managed Evernote&apos;s Growth and Out-of-App teams. I enjoy solving complex problems, mentoring teams, and creating products that are simple and scalable.</p>
       </Section>
     </>
   )
@@ -64,7 +64,7 @@ function SideProjects() {
         <p className="pb-8">Outside of my professional work, I spend a lot of time creating and experimenting:</p>
         <ul>
           <li className="pb-8">🎮 Game Development: I’m building a first-person shooter from scratch in Godot, learning everything from gameplay programming to performance optimization. It&apos;s been a hands-on way to explore engines, rendering pipelines, and game design.</li>
-          <li className="pb-8">🎨 3D Printing & Painting: I design, print, and hand-paint statues — a mix of digital fabrication and old-school artistry that scratches both my tech and creative itches.</li>
+          <li className="pb-8">🎨 3D Printing & Painting: I design, print, and hand-paint statues. It mixes digital fabrication with old-school painting and scratches both my tech and creative itches.</li>
           <li className="pb-8">🍕 Pizza Making: For the past year, I&apos;ve been honing my pizza-making craft. From dough fermentation to experimenting with toppings, I&apos;ve considered turning it into a pizzeria one day.</li>
         </ul>
       </Section>
@@ -76,7 +76,7 @@ function Outro() {
   return <>
     <Section>
       <SectionTitle title='What Drives Me.' />
-      <p className="pb-24">At the core, I love creating things that bring people joy — whether it&apos;s scalable web apps, interactive games, custom collectibles, or a really good slice of pizza. I&apos;m always learning, tinkering, and pushing myself to explore new skills and share knowledge with others.</p>
+      <p className="pb-24">I love making things that bring people joy, whether that&apos;s a web app, a game, a custom collectible, or a really good slice of pizza. I&apos;m always learning, tinkering, and pushing myself to explore new skills and share knowledge with others.</p>
     </Section>
   </>
 }
