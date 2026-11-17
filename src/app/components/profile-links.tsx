@@ -6,10 +6,10 @@ export const LINKS: { label: string; href: string | null; download?: boolean }[]
   { label: 'GitHub', href: 'https://github.com/rthauby' },
 ];
 
-export function ProfileLinks({ className = '' }: { className?: string }) {
+export function ProfileLinks({ className = '', includeResume = true }: { className?: string, includeResume?: boolean }) {
   return (
     <div className={`flex flex-wrap gap-4 ${className}`}>
-      {LINKS.filter((l) => l.href).map((l) => (
+      {LINKS.filter((l) => l.href && (includeResume || !l.href.endsWith('.pdf'))).map((l) => (
         <a
           key={l.label}
           href={l.href as string}
