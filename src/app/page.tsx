@@ -6,7 +6,7 @@ import { ProfileLinks } from './components/profile-links';
 
 export const metadata: Metadata = {
   title: "Home | Rodrigo Thauby",
-  description: "Rodrigo Thauby — engineering manager and full-stack engineer with 17+ years of experience and an active DoD Secret clearance. Carlisle, PA.",
+  description: "Rodrigo Thauby — engineering manager and full-stack engineer with 17+ years of experience. Carlisle, PA.",
 };
 
 function Hero() {
@@ -25,8 +25,8 @@ function Hero() {
             <p className='pb-8'>Hi,</p>
             <h1 className='pb-8'>I&#39;m Rodrigo Thauby.</h1>
             <p className='pb-8'>A Programmer, Nerd, and Dad, living in Carlisle, PA.</p>
-            <p className='pb-6 text-xl sm:text-2xl font-normal tracking-normal text-gray-700 dark:text-gray-300'>Engineering manager and full-stack engineer, 17+ years. Active DoD Secret clearance.</p>
-            <ProfileLinks className='pb-8' />
+            <p className='pb-6 text-xl sm:text-2xl font-normal tracking-normal text-gray-700 dark:text-gray-300'>Engineering manager and full-stack engineer, 17+ years.</p>
+            <ProfileLinks className='pb-8' includeResume={false} />
           </div>
           <div className='col-span-1'>
             <div className='sm:ml-12 text-center'>
